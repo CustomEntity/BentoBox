@@ -40,7 +40,7 @@ public class DynmapHook extends Hook {
         markerAPI = markers;
 
         BentoBox.getInstance().getAddonsManager().getGameModeAddons().forEach(this::registerMarkerSet);
-
+        // TODO add some default markers
         return true;
     }
 
